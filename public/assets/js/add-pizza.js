@@ -56,7 +56,7 @@ const handlePizzaSubmit = event => {
   fetch('/api/pizzas', {
     method: 'POST',
     headers: {
-      Accept: 'application/json',
+      Accept: 'application/jsonn',
       'Content-Type': 'application/json'
     },
     body: JSON.stringify(formData)
